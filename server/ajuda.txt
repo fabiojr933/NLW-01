@@ -1,0 +1,28 @@
+/* Projeto typescript */
+npm init -y    
+npm install express
+npm install cors
+npm install typescript -D
+npm install ts-node -D
+npx tsc --init
+npm install ts-node-dev -D
+npm install multer
+
+"scripts": {
+    "dev": "ts-node-dev src/server.ts",
+     "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
+  },
+
+npm run dev
+npm run knex:migrate
+}
+
+
+Biblioteca uteis
+npm install knex --save
+npm install sqlite3
+
+
+
+/* criando um projeto react */
+npx create-react-app web --template=typescript

@@ -1,0 +1,18 @@
+/* Projeto typescript */
+
+
+npm install -g expo-cli
+npm init nome_projeto
+npm start
+
+expo install @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+npm install @react-navigation/native   
+npm install react-native-screens react-native-safe-area-context
+npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+npm install @react-navigation/stack
+expo install expo-constants   
+npm install react-native-maps  
+npm install react-native-svg
+npm install axios
+expo install expo-location
+expo install expo-mail-composer

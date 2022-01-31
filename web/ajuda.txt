@@ -1,0 +1,19 @@
+/* Projeto typescript */
+npm init -y    
+npm install express
+npm install typescript -D
+npm install ts-node -D
+npx tsc --init
+npm install ts-node-dev -D
+npm install react-router-dom
+npm install react-icons
+
+"scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+
+npm run dev
+
+
+/* criando um projeto react */
+npx create-react-app web --template=typescript
